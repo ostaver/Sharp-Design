@@ -39,7 +39,11 @@ Boutique design language for studio portfolios and landing pages. Warm restraint
 - **Tokens:** ~4,200 context tokens
 - **Score:** 9 / 10
 - **Best for:** Studios, agencies, independent makers, craft-driven brands
-- **Result File Type:** .html 
+- **Result File Type:** .html
+
+| White Theme | Dark Theme |
+|---|---|
+| ![Atelier White-Theme](Atelier-white.png) | ![Atelier Dark-Theme](Atelier-dark.png) |
 
 ---
 
