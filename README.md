@@ -43,7 +43,7 @@ Boutique design language for studio portfolios and landing pages. Warm restraint
 
 | White Theme | Dark Theme |
 |---|---|
-| ![Atelier White-Theme](Atelier-white.png) | ![Atelier Dark-Theme](Atelier-dark.png) |
+| ![Atelier White-Theme](Atelier/Atelier-white.png) | ![Atelier Dark-Theme](Atelier/Atelier-dark.png) |
 
 ---
 
