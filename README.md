@@ -112,7 +112,7 @@ A React-native design language for studios, product teams, and culture-forward b
 | Cursor | Custom | Custom | Custom | None |
 | Complexity | Medium | Low–Medium | High | Medium–High |
 | Token cost | ~5k | ~4.2k | ~18.6k | ~11k |
-| Result | .html | .html | Folder | Astro Repo |
+| Result | .html | .html | Folder/Repository | Folder/Repository |
 
 ---
 
