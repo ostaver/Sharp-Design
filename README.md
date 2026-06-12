@@ -4,6 +4,25 @@ Welcome to Sharp Design, a collection of AI agent skills for building profession
 
 ---
 
+## Quick Start
+
+1. **Pick a design language** — start with [Argon](#argon) or [Atelier](#atelier) for a single-file site, or [Binary](#binary) for a multi-file technical reference site.
+2. **Copy the skill** — open your chosen language's `SKILL.md` file.
+3. **Paste into your AI agent** — drop the full contents into the system prompt or context window of any supported model (Claude Sonnet/Opus, GPT-5, DeepSeek, Qwen, etc.).
+4. **Describe your site** — tell the agent what you want: *"Create a portfolio website for a ceramic artist. Use Argon, 6 sections."*
+5. **Run and deploy** — the agent will generate all files locally or give you a single `.html` file ready to open or deploy.
+
+**Example prompt for Argon:**
+```
+Use the Argon skill to build a single-page site for a generative art studio. Include: hero, about, gallery grid, manifest, process, contact. Make it dark and atmospheric.
+```
+
+**First try?** Use Argon — it's the most forgiving of the three and produces a complete, self-contained `.html` file with no extra setup.
+
+> **Note:** Skill token costs range from ~4,200 (Atelier) to ~18,600 (Binary). Make sure your model supports a long enough context window. We recommend models with at least 128k tokens of context.
+
+---
+
 ## What is a skill?
 
 A skill is a `SKILL.md` file that lives inside a design language folder. It defines everything the agent needs: layout grammar, component vocabulary, CSS design tokens, JavaScript runtime, and content guidelines. The agent writes all output files from scratch — no templates are copied, no binaries are bundled.
@@ -58,19 +77,32 @@ Fixed-frame technical reference site. Monospace throughout, live WebGL fragment 
 
 ---
 
+### Comfort
+> *Raw, architectural, earthy.*
+
+A React-native design language for studios, product teams, and culture-forward brands. Builds a complete component-based React repository with TypeScript, CSS Modules, and Vite. Material voice: adobe, concrete, kiln. "Honest materials, honest code."
+
+- **Style:** Architectural, grounded, component-first
+- **Stack:** React · TypeScript · CSS Modules · Vite
+- **External:** Google Fonts (`Playfair Display`, `Inter`, `JetBrains Mono`) · Unsplash
+- **Tokens:** ~11,000 context tokens
+- **Score:** 9.2 / 10
+- **Best for:** Studios, product teams, culture brands, editorial platforms
+- **Result File Type:** React Repository
+
+---
+
 ## Comparison
 
-| | Argon | Atelier | Binary |
-|---|---|---|---|
-| Aesthetic | Gallery / terminal | Editorial / warm | Instrument / cold |
-| Type voice | Serif + mono | Serif + sans | Mono only |
-| Hero | WebGL backdrop | Ambient motion | WebGL GLSL shader |
-| Cursor | Custom | Custom | Custom |
-| Complexity | Medium | Low–Medium | High |
-| Token cost | ~5 k | ~4.2 k | ~18.6 k |
-| Result | Single `.html` file | Single `.html` file | Folder (4 text files) |
-
-> **Zero binary assets** — all three skills produce sites with no local fonts, images, or prebuilt bundles stored on disk. Fonts come from Google Fonts, icons from Lucide CDN, images from Unsplash. The output is pure text (HTML, CSS, JS) that you can read, diff, and version control like any other code.
+| | Argon | Atelier | Binary | Comfort |
+|---|---|---|---|---|
+| Aesthetic | Gallery / terminal | Editorial / warm | Instrument / cold | Raw / architectural |
+| Type voice | Serif + mono | Serif + sans | Mono only | Display + sans + mono |
+| Hero | WebGL backdrop | Ambient motion | WebGL GLSL shader | Textured gradient / SVG noise |
+| Cursor | Custom | Custom | Custom | None |
+| Complexity | Medium | Low–Medium | High | Medium–High |
+| Token cost | ~5k | ~4.2k | ~18.6k | ~11k |
+| Result | .html | .html | Folder | Astro Repo |
 
 ---
 
@@ -101,7 +133,6 @@ Avoid for all skills: Mistral, Meta/Llama, and other smaller open-weight models.
 ---
 
 ## Repo structure
-
 ```
 Sharp-design/
 ├── Argon/
