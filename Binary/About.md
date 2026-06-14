@@ -45,5 +45,5 @@ This skill is **NOT** recommended to use with the following models:
 ---
 **Overall score: 9.6/10.**
 What can be improved: **Context optimization / Compression - the skill is comprehensive but token-heavy due to complete file contents / Originality.**
-What is good: **Almost any model, even the smaller ones can give good results**
+What is good: **Almost any model, even the smaller ones can give good results.**
 
