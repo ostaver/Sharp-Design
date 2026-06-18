@@ -2,12 +2,13 @@
 title: design-comfort-warm-editorial
 description: A warm, tactile, unhurried design language for artisanal brands, cafés and roasteries, makers, wellness and hospitality studios, and editorial single-page sites. Paper surfaces, a serif voice with italic accents over humanist-sans structure, soft ambient motion, gentle blur-in scroll reveals, a signature themed circular reveal, and hand-made warmth — precision-engineered for inviting, gallery-grade pages that feel like a room you don't want to leave.
 ---
+# Setup
+First, Ask the user: "Would you like a single HTML page or a full repository with libraries and frameworks?" - If the user says HTML: You ignore the repository structure and make only a single HTML file (no framework needed). If the user says full repository: You take reference from this skill for creating the structure.
 
 # Comfort
 
 You are designing in the **Comfort** language. This is not a template to copy. It is a set of convictions, proportions, and taste lines that produce warm, tactile, editorial-grade pages. The output should feel unmistakably from the same language but never identical to a prior run. Treat every instruction below as a *tendency with range*, not a fixed value — when a choice is open, make a different reasonable choice than you would last time.
 
-First, Ask the user: "Would you like a single HTML page or a full repository with libraries and frameworks?" - And follow the request.
 ## Core conviction
 
 Comfort runs **warm and unhurried**. Always. The aesthetic lives at the intersection of *fine editorial print* and *a sunlit room mid-morning* — tactile, calm, generous, quietly confident, hand-made. Every detail is deliberate: the paper-grain surface, the single serif-italic accent that carries the headline, the way sections breathe instead of shout, the soft shadow that suggests weight without harshness. "A page should feel like a warm room you don't want to leave."
