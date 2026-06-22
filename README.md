@@ -118,12 +118,12 @@ An Astro-native design language for studios, product teams, and culture-forward 
 
 | | Argon | Atelier | Binary | Comfort |
 |---|---|---|---|---|
-| Aesthetic | Gallery / terminal | Editorial / warm | Instrument / cold | Raw / architectural |
-| Type voice | Serif + mono | Serif + sans | Mono only | Display + sans + mono |
+| Aesthetic | Gallery / terminal | Editorial / warm | Instrument / cold | Warm / editorial |
+| Type voice | Serif + mono | Serif + sans | Sans + mono | Serif + sans |
 | Hero | WebGL backdrop | Ambient motion | WebGL GLSL shader | Textured gradient / SVG noise |
-| Cursor | Custom | Custom | Custom | None |
-| Complexity | Medium | Low–Medium | High | Medium–High |
-| Token cost | ~5k | ~4.2k | ~18.6k | ~11k |
+| Cursor | Custom | Default | Custom | Default |
+| Complexity | Medium | Low–Medium | High | High |
+| Token cost | ~5k | ~4.2k | ~18.6k | ~13k |
 | Result | .html | .html | Folder/Repository | Folder/Repository |
 
 ---
