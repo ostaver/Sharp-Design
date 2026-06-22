@@ -24,22 +24,23 @@ This skill is **NOT** recommended to use with the following models:
 ## Additional Information
 >This skill does not use shaders, but does use frameworks. Make sure to use thinking mode. If you use HTML only, you can use almost any model.
 
->Unique: No default scroll sidebar but a custom one. Animate theme change.
+>Unique: Custom scroll sidebar, custom theme change animation.
+
+> White/Dark Theme
 
 - When the skill loads up it adds up about ~13000 tokens in the context window
-- Words: 6,763
-- Characters: 48,411
+- Words: 2,656
+- Characters: 20,686
 ### Based on Tools / Frameworks 
 - **HTML** - **CSS** - **JavaScript** - **Astro.js** - **Anime.js** - **Vite**
 - **External CDN resources**: Google Fonts, Lucide Icons.
 ---
 ## Description of the skill in words
-- White/Dark Theme
-- Buttery Smooth
-- Minimalist
-- Tasty
+- Warm & tactile
+- Soft Modernism
+- Tasty & Crafty
+- Buttery smooth
 
----
 **Overall score: 9.8/10.**
 What can be improved: **Context optimization / Compression**
 What is good: **It's production ready.**
